@@ -386,6 +386,18 @@
     [
       "96f7660e-d3d9-4022-bb72-d6467b6cbc1f",
       "Root"
+    ],
+    [
+      "d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e",
+      "USB"
+    ],
+    [
+      "33048040-4ae5-46e0-b14d-55f5f524b841",
+      "boost_converter"
+    ],
+    [
+      "ef7d64c7-7726-4590-bb1e-c2d904bb3c7d",
+      "controller"
     ]
   ],
   "text_variables": {}
