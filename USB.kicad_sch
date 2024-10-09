@@ -536,6 +536,145 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -2087,6 +2226,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 87.63) (xy 50.8 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f870cc2-5a90-4afd-a46e-7c0f087b7424")
+	)
+	(wire
+		(pts
 			(xy 133.35 73.66) (xy 137.16 73.66)
 		)
 		(stroke
@@ -2114,16 +2263,6 @@
 			(type default)
 		)
 		(uuid "197413b2-516c-4157-9683-c6bf97410676")
-	)
-	(wire
-		(pts
-			(xy 48.26 87.63) (xy 55.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22f0b3a0-ae60-4f87-9698-466d2833caf9")
 	)
 	(wire
 		(pts
@@ -2204,6 +2343,16 @@
 			(type default)
 		)
 		(uuid "3941dbca-6738-4250-bfe2-d28ee48ca002")
+	)
+	(wire
+		(pts
+			(xy 224.79 93.98) (xy 227.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b99e64e-468d-4b7d-985e-c4f284f7bc25")
 	)
 	(wire
 		(pts
@@ -2344,6 +2493,26 @@
 			(type default)
 		)
 		(uuid "747118e2-ccfe-44c7-a469-16dd6836a016")
+	)
+	(wire
+		(pts
+			(xy 227.33 96.52) (xy 224.79 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d5e1470-eb27-4554-85ec-7523086f3691")
+	)
+	(wire
+		(pts
+			(xy 224.79 96.52) (xy 224.79 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dbab49e-b342-4aa8-b6b4-7b75aa07ec87")
 	)
 	(wire
 		(pts
@@ -2757,6 +2926,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 87.63) (xy 50.8 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6b0456b-ae40-41a4-a506-b330292ec9f4")
+	)
+	(wire
+		(pts
 			(xy 168.91 90.17) (xy 167.64 90.17)
 		)
 		(stroke
@@ -2948,7 +3127,7 @@
 		)
 	)
 	(global_label "CC1"
-		(shape input)
+		(shape bidirectional)
 		(at 55.88 80.01 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2959,7 +3138,7 @@
 		)
 		(uuid "960bc364-6bf0-426d-8b88-89607be2fb4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.6147 80.01 0)
+			(at 63.726 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,30 +3170,8 @@
 			)
 		)
 	)
-	(global_label "D+"
-		(shape input)
-		(at 55.88 87.63 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "97f3a7f3-5c4d-4182-9dfc-d1fbea5a48e3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.7076 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "D-"
-		(shape input)
+		(shape bidirectional)
 		(at 55.88 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3025,7 +3182,7 @@
 		)
 		(uuid "9f873f1e-e061-4c4f-8413-f2a6ea447b1b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.7076 82.55 0)
+			(at 62.8189 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3080,7 +3237,7 @@
 		)
 	)
 	(global_label "D+"
-		(shape input)
+		(shape bidirectional)
 		(at 55.88 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3091,7 +3248,7 @@
 		)
 		(uuid "cb4a3171-01c6-4e6c-a53e-83a0ac3ea4d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 61.7076 85.09 0)
+			(at 62.8189 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3233,6 +3390,72 @@
 			(project ""
 				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 182.88 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09c2f58f-48b9-4f93-97c7-5300ec91fdec")
+		(property "Reference" "#PWR031"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 182.88 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 182.88 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6a0e9766-3548-4e5d-9f47-f951642d5a1e")
+		)
+		(instances
+			(project "Stern_pcb"
+				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3469,7 +3692,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 163.5252 104.14 0)
 			(effects
 				(font
@@ -3506,6 +3729,138 @@
 			(project "Stern_pcb"
 				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 224.79 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14b2bf74-c436-4886-afb4-687b0fa91113")
+		(property "Reference" "#PWR040"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 224.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 224.79 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc2ea6aa-a8ae-4ac7-85be-7b378c322ebd")
+		)
+		(instances
+			(project "Stern_pcb"
+				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2006d9ed-0697-48e4-afbd-b2a7bf02fd75")
+		(property "Reference" "#PWR024"
+			(at 50.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 50.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2af8511a-171c-4a82-b353-cae163c5356d")
+		)
+		(instances
+			(project ""
+				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3821,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
 			(at 43.18 82.55 0)
 			(effects
 				(font
@@ -3966,7 +4321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 155.702 127 90)
 			(effects
 				(font
@@ -4234,7 +4589,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 107.6452 59.69 0)
 			(effects
 				(font
@@ -4370,7 +4725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 165.862 118.11 90)
 			(effects
 				(font
@@ -4852,6 +5207,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 224.79 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca9cba4-887e-4335-900f-4797f1e5dd35")
+		(property "Reference" "#PWR041"
+			(at 224.79 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 224.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 224.79 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88308309-f30b-444f-9b97-b9956b54bbb8")
+		)
+		(instances
+			(project "Stern_pcb"
+				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 95.25 69.85 0)
 		(unit 1)
@@ -4985,6 +5406,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 232.41 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bffab28b-384b-4a3d-992e-4a1f61d6aa72")
+		(property "Reference" "J4"
+			(at 234.95 93.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 234.95 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 232.41 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4095718-e1b0-42a7-98e9-d468253f5e20")
+		)
+		(pin "1"
+			(uuid "0f60c79a-a8fb-4423-938d-ca929e6b0439")
+		)
+		(instances
+			(project ""
+				(path "/96f7660e-d3d9-4022-bb72-d6467b6cbc1f/d25e826a-48e5-4d0f-b9ce-ba12d02d1f5e"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 162.56 106.68 0)
 		(unit 1)
@@ -5078,7 +5569,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 163.5252 78.74 0)
 			(effects
 				(font
@@ -5501,7 +5992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_PSA_WLPMA0A040"
 			(at 171.45 71.12 0)
 			(effects
 				(font
@@ -5655,7 +6146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 167.64 125.73 0)
 			(effects
 				(font
