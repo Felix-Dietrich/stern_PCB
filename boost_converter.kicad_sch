@@ -3310,7 +3310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRR1260_handsolder"
 			(at 123.19 76.2 0)
 			(effects
 				(font
