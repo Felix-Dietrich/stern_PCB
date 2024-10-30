@@ -1,3 +1,5 @@
 ?auto*
 *backup*
 *.lck
+*.zip
+.DS_Store

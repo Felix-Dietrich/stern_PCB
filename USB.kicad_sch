@@ -2045,12 +2045,6 @@
 		(uuid "16f95eea-551d-4b95-9950-71477efef122")
 	)
 	(junction
-		(at 160.02 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "285075cd-d86b-4886-a905-98f8cfdcb6ec")
-	)
-	(junction
 		(at 162.56 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2596,16 +2590,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 93.98) (xy 163.83 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9264b1a3-9437-43e2-b847-2b5215e565a1")
-	)
-	(wire
-		(pts
 			(xy 190.5 46.99) (xy 190.5 49.53)
 		)
 		(stroke
@@ -3023,28 +3007,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DSEL"
-		(shape input)
-		(at 163.83 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "08c98eec-369d-40bc-99e7-d92d6afce978")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.4718 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
