@@ -1,0 +1,1 @@
+Housing for four 21700 cells and PCB is on onshape: https://cad.onshape.com/documents/7a57a716b7607c04f3957bb7/w/b1331918a3535d202a224eb3/e/a3f7e8ff6c7ca0a37da96c1e?renderMode=0&uiState=67293fd1cffb950f3f58066c
